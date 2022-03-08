@@ -17,8 +17,7 @@ The Pixy U can be purchased from the `Gremsy store <https://store.gremsy.com/pro
 Connecting to the Autopilot
 ===========================
 
-.. image:: ../../../images/gremsy-pixyu-autopilot.png
-    :target: ../_images/gremsy-pixyu-autopilot.png
+.. image:: ../../../images/airvolute_droneCore.Suite_9233.jpg  
     :width: 450px
 
 We recommend connecting the Gimbals's COM2 port to one of the autopilot's Serial/Telemetry ports like Telem2 as shown above.
