@@ -1,12 +1,10 @@
 .. _common-gremsy-pixyu-gimbal:
 
 ===========================
-Airvolute DroneCore.Suite
+Gremsy Pixy U 3-Axis Gimbal
 ===========================
 
-DroneCore.Suite is a 
-
-More specifications can be found `here on the Gremsy website <https://gremsy.com/pixy-u-spec/>`__.  The user manual is `here <https://gremsy.com/pixy-u-manual/>`__.
+The Gremsy Pixy U is a 3-axis gimbal that can communicate with the flight controller using the MAVLink protocol, weighs 465g, and is compatible with a range of cameras for real-time video or mapping purposes.  More specifications can be found `here on the Gremsy website <https://gremsy.com/pixy-u-spec/>`__.  The user manual is `here <https://gremsy.com/pixy-u-manual/>`__.
 
 .. image:: ../../../images/gremsy-pixyu-gimbal.png
     :target: https://store.gremsy.com/product/pixy-u/
@@ -19,7 +17,8 @@ The Pixy U can be purchased from the `Gremsy store <https://store.gremsy.com/pro
 Connecting to the Autopilot
 ===========================
 
-.. image:: ../../../images/airvolute_droneCore.Suite_9233.jpg  
+.. image:: ../../../images/gremsy-pixyu-autopilot.png
+    :target: ../_images/gremsy-pixyu-autopilot.png
     :width: 450px
 
 We recommend connecting the Gimbals's COM2 port to one of the autopilot's Serial/Telemetry ports like Telem2 as shown above.
