@@ -4,31 +4,34 @@
 Airvolute DroneCore.Suite
 ===========================
 
-**DroneCore.Suite** is a one stop autopilot and flight computer solution for developers of advanced drone systems demanding high computing power and high level of modularity. It creates the "core" of the drone containing most of necessary electronics to fly a quadcopter.
+**DroneCore.Suite** is a one stop autopilot and flight computer solution for developers of advanced drone systems demanding high computing power and high level of modularity. 
+It is the "core" of the drone containing most of its electronics in a compact form and it provides wide options for software development of the the most challenging AI and vission based applications.
 
 .. image:: ../../../images/airvolute_droneCore.Suite_9233.jpg
 
 It consists of a control part called **DroneCore.Pilot** and power part called **DroneCore.Power**.
 
 
+**DroneCore.Pilot** - top board for control of the aircraft containing
 
--  **DroneCore.Pilot** - top board for control of the aircraft
-   containing
+-  **Jetson Xavier NX**
+-  Cube flight controller
+-  Internal 5V power supply
+-  Power selector
+-  Peripheral connectors
+-  USB hub
 
-   -  Jetson Xavier NX
-   -  Cube flight controller
-   -  Internal 5V power supply
-   -  Power selector
-   -  Peripheral connectors
-   -  USB hub
 
--  **DroneCore.Power** - bottom board with power electronic containing
+**DroneCore.Power** - bottom board with power electronic containing
 
-   -  4 FOC UAVCAN ESCs - 20A permanent / 40A peak current
-   -  Power sensor (battery voltage and current measurement)
-   -  Analog inputs for battery cell monitoring
-   -  SMBUS
-   -  LED Driver for 4 x WS2812B strips
+-  4 FOC UAVCAN ESCs - 20A permanent / 40A peak current
+-  Stacked configuration allows 8 ESCs
+-  Power sensor (battery voltage and current measurement)
+-  Analog inputs for battery cell monitoring
+-  SMBUS
+-  LED Driver for 4 x WS2812B strips
+
+
 
 
 DroneCore.Suite comes with both Cube and Xavier NX preconfigured and communicating together and able to control a quadcopter. Developers no longer need to solve basic communication and compatibility issues coming from connecting two different IT worlds. It They can start to concentrate on their application needs from the beginning.
@@ -36,17 +39,19 @@ DroneCore.Suite comes with both Cube and Xavier NX preconfigured and communicati
 Accompanying documentation provides a fast learning curve to start using various peripherals to control the drone and create the desired application.
 Various software libraries (coming soon) further enrich the possibilities for the developer relieving him from complex configuration and programming tasks.
 
-  DroneCore.Suite
+DroneCore.Suite provides easy to use ROS based software stack supporting development of autonomous applications.
+
+Out of the box device is configured to fly a quadcopter (though flight controller calibration is needed anyway).
+
+---------------------------
+Top view
+---------------------------
+.. image:: ../../../images/DCS_top_view_9219.jpg
 
 
-DroneCore.Suite provides easy to use ROS based software stack supporting
-development of autonomous applications.
-
-Out of the box device is configured to fly a quadcopter (though flight
-controller calibration is needed anyway).
-
+---------------------------
 Specifications:
-^^^^^^^^^^^^^^^
+---------------------------
 
 **Mechanical parameters**
 
@@ -99,24 +104,26 @@ Specifications:
 -  power sensor, SMBUS,
 -  LED Driver for 4x WS2812B strips
 
+
 ---------------------------
 Block Schematic
 ---------------------------
 .. image:: ../../../images/airvolute_DroneCore.Pilot_block_diagram.svg
-
 
    
 
 **DroneCore.Pilot** is based on Cube Orange - widely used flight controller by Hex.aero running on Ardupilot (or optionally PX4 flight stack) and Nvidia Jetson Xavier NX. Their rich interfaces allow connecting of most of sensor and other peripherals for drones available on the market.
 
 **DroneCore.Power** contains 4 FOC ESCs with motor identification feature able to be configured for all common BLDC/PMSM drone motors on the market and telemetry interface providing real time data from the flight to the flight controller. Furthermore it provides battery voltage and current measurements including separate cell voltages.
+
+
 ---------------------------
 Useful links
 ---------------------------
 
 `Product webpage`_.
 
-.. _Product webpage: https://www.airvolute.com/product/dronecore/
+.. _Product website: https://www.airvolute.com/product/dronecore/
 `Documentation`_.
 
 .. _Documentation: https://docs.airvolute.com/airvolute-dronecore.suite
