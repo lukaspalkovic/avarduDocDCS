@@ -110,19 +110,18 @@ Block Schematic
 **DroneCore.Pilot** is based on Cube Orange - widely used flight controller by Hex.aero running on Ardupilot (or optionally PX4 flight stack) and Nvidia Jetson Xavier NX. Their rich interfaces allow connecting of most of sensor and other peripherals for drones available on the market.
 
 **DroneCore.Power** contains 4 FOC ESCs with motor identification feature able to be configured for all common BLDC/PMSM drone motors on the market and telemetry interface providing real time data from the flight to the flight controller. Furthermore it provides battery voltage and current measurements including separate cell voltages.
+---------------------------
+Useful links
+---------------------------
 
+`Product webpage`_.
 
+.. _Product webpage: https://www.airvolute.com/product/dronecore/
+`Documentation`_.
 
+.. _Documentation: https://docs.airvolute.com/airvolute-dronecore.suite
+`Where to buy`_.
 
-The Gremsy Pixy U is a 3-axis gimbal that can communicate with the flight controller using the MAVLink protocol, weighs 465g, and is compatible with a range of cameras for real-time video or mapping purposes.  More specifications can be found `here on the Gremsy website <https://gremsy.com/pixy-u-spec/>`__.  The user manual is `here <https://gremsy.com/pixy-u-manual/>`__.
-
-
-
-
-
-Where to Buy
-============
-
-The Pixy U can be purchased from the `Gremsy store <https://store.gremsy.com/product/pixy-u/>`__
+.. _Where to buy: https://www.airvolute.com/contact/
 
 
