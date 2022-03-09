@@ -46,7 +46,7 @@ Out of the box device is configured to fly a quadcopter (though flight controlle
 ---------------------------
 Top view
 ---------------------------
-.. image:: ../../../images/DCS_top_view_9219.jpg
+.. image:: ../../../images/airvolute_DCS_top_view_9219.jpg
 
 
 ---------------------------
@@ -121,13 +121,13 @@ Block Schematic
 Useful links
 ---------------------------
 
-`Product webpage`_.
+`Product website`_
 
 .. _Product website: https://www.airvolute.com/product/dronecore/
-`Documentation`_.
+`Documentation`_
 
 .. _Documentation: https://docs.airvolute.com/airvolute-dronecore.suite
-`Where to buy`_.
+`Where to buy`_
 
 .. _Where to buy: https://www.airvolute.com/contact/
 
