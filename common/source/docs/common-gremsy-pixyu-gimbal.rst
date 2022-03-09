@@ -1,13 +1,20 @@
 .. _common-gremsy-pixyu-gimbal:
 
 ===========================
-Gremsy Pixy U 3-Axis Gimbal
+Airvolute DroneCore.Suite
 ===========================
+
+**DroneCore.Suite** is a one stop autopilot and flight computer solution for developers of advanced drone systems demanding high computing power and high level of modularity. It creates the "core" of the drone containing most of necessary electronics to fly a quadcopter.
+
+It consists of a control part called **DroneCore.Pilot** and power part called **DroneCore.Power**.
+
+**DroneCore.Pilot** is based on Cube Orange - widely used flight controller by Hex.aero running on Ardupilot (or optionally PX4 flight stack) and Nvidia Jetson Xavier NX. Their rich interfaces allow connecting of most of sensor and other peripherals for drones available on the market.
+
+**DroneCore.Power** contains 4 FOC ESCs with motor identification feature able to be configured for all common BLDC/PMSM drone motors on the market and telemetry interface providing real time data from the flight to the flight controller. Furthermore it provides battery voltage and current measurements including separate cell voltages.
 
 The Gremsy Pixy U is a 3-axis gimbal that can communicate with the flight controller using the MAVLink protocol, weighs 465g, and is compatible with a range of cameras for real-time video or mapping purposes.  More specifications can be found `here on the Gremsy website <https://gremsy.com/pixy-u-spec/>`__.  The user manual is `here <https://gremsy.com/pixy-u-manual/>`__.
 
-.. image:: ../../../images/gremsy-pixyu-gimbal.png
-    :target: https://store.gremsy.com/product/pixy-u/
+.. image:: ../../../images/airvolute_droneCore.Suite_9233.jpg
 
 Where to Buy
 ============
