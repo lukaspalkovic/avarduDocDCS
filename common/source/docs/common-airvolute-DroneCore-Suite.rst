@@ -46,7 +46,7 @@ Out of the box device is configured to fly a quadcopter (though flight controlle
 ---------------------------
 Top view
 ---------------------------
-.. image:: ../../../images/airvolute_DCS_top_view_9219.jpg
+.. image:: ../../../images/airvolute_droneCore.Suite_top_view_9219.jpg
 
 
 ---------------------------
